@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from '../Common/Shared/Navbar/Navbar';
 
 const Main = () => {
     return (
         <div>
-            <h1>this is main jsx</h1>
+            <Navbar></Navbar>
         </div>
     );
 };

@@ -8,8 +8,9 @@ import router from "./Router/Routes";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <div div className="">
+
+ <React.StrictMode>
+    <div  className="">
     <RouterProvider router={router} />
     </div>
   </React.StrictMode>
